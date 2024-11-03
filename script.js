@@ -31,3 +31,9 @@ function secondFunction() {
 firstFunction();
 
 
+// function causes stackoverflow
+function causeStackOverflow() {
+    causeStackOverflow();
+}
+
+// causeStackOverflow();
